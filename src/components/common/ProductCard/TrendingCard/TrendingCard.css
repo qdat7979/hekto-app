@@ -1,0 +1,46 @@
+.cardProductItem.trending {
+    padding: 12px;
+    box-shadow: 0px 8px 40px 0px #31208A0D;
+}
+
+.cardProductImage.trending,
+.cardProductImage.trending:hover {
+    background-color: #F5F6F8;
+}
+
+.cardProductDesc.trending {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardProductTitle.trending {
+    margin-bottom: 9px;
+}
+
+.cardProductTitle.trending span,
+.cardProductItem.trending:hover .cardProductTitle.trending span {
+    color: #151875;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardProductPrice.trending .currentPrice span,
+.cardProductItem.trending:hover .currentPrice span{
+    font-size: 14px;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 12px;
+}
+
+.cardProductPrice.trending .salePrice span,
+.cardProductItem.trending:hover .salePrice span
+{
+    color: #1518754D;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: line-through;
+}
+
+.cardProductItem.trending:hover .cardProductDesc.trending {
+    background-color: #ffff;
+}
+

@@ -1,0 +1,32 @@
+/* Feature Section */
+.featureTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.featureTitle span {
+    color: #1A0B5B;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.featureSection {
+    margin-bottom: 174px;
+}
+
+.spinLoadingFeature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ant Spin for Latest and Feature */
+.ant-spin-dot {
+    font-size: 50px !important;
+}
+
+.ant-spin-dot-item {
+    width: 20px !important;
+    height: 20px !important;
+}

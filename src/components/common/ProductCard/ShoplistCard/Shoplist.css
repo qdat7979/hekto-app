@@ -1,0 +1,93 @@
+.cardProductItem.shoplist {
+    display: flex;
+    padding: 17px;
+    margin-bottom: 34px;
+}
+.cardProductImage.shoplist {
+    height: 217px;
+    flex: 1;
+    margin-right: 32px;
+}
+.cardProductDesc.shoplist {
+    flex: 3;
+    padding: 0;
+}
+
+.cardProductDesc.shoplist .cardProductPrice,
+.cardProductDesc.shoplist .cardProductCode {
+    justify-content: flex-start;
+}
+
+.cardProductDesc.shoplist .cardProductColor {
+    margin: 0px;
+}
+
+.cardProductDesc.shoplist .cardProductTitle{
+    justify-content: space-between;
+}
+
+.cardProductDesc.shoplist .cardProductTitle {
+    width: 270px;
+}
+.cardProductDesc.shoplist .cardProductTitle span {
+    font-size: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+.cardProductItem.shoplist:hover .cardProductDesc{
+    background-color: #ffff;
+}
+
+.cardPorductTitle span,
+.cardProductItem.shoplist:hover span {
+    color: #111C85;
+}
+
+.currentPrice.shoplist span,
+.cardProductItem.shoplist:hover .currentPrice.shoplist span {
+    color: #111C85;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cardProductDesc.shoplist .cardProductPrice .salePrice span{
+    color: #FF2AAA;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: line-through;
+}
+
+.currentPrice.shoplist {
+    margin-right: 10px;
+}
+
+.salePrice.shoplist {
+    margin-right: 18px;
+}
+
+
+.cardProductCode.shoplist span,
+.cardProductItem.shoplist:hover .cardProductCode.shoplist span {
+    color: #9295AA;
+    font-family: 'Lato', sans-serif;
+}
+
+.cardProductCode.shoplist {
+    width: 600px;
+    margin-bottom: 31px;
+}
+
+.cardProductShoplist {
+    display: flex;
+}
+
+.shoplistIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 27.60869598388672px 0px #0000000D;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+
+

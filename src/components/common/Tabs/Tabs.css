@@ -1,0 +1,56 @@
+.ant-tabs-tab {
+    color: #151875 !important;
+    font-family: 'Josefin Sans';
+    font-size: 24px !important;
+    font-weight: 700;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{ 
+    color: #151875 !important;
+    text-shadow: none;
+}
+
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+    background-color: #151875 !important;
+}
+
+.tabDesc {
+    margin-top: 40px;
+}
+
+.tabDescTitle { 
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    color: #151875;
+    font-weight: 600;
+    margin-bottom: 14px;   
+}
+
+.tabDescPart { 
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    color: #A9ACC6;
+    line-height: 29px;
+    margin-bottom: 36px;
+}
+
+.tabsWrapper {
+    padding: 119px 0;
+    background-color: #F9F8FE;
+    margin-bottom: 126px;
+}
+
+.tabsMoreDetailsTitle {
+    margin-bottom: 16px;
+}
+
+.tabsMoreDetailsTitle span {
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    color: #151875;
+    font-weight: 700;
+}
+
+.tabsMoreDetailsSection div{
+    color: #A9ACC6;
+}

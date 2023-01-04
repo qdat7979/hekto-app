@@ -1,0 +1,24 @@
+.container.footerSection {
+    width: 1200px;
+}
+.ant-row {
+    justify-content: space-between;
+}
+
+.categoriesItem {
+    margin-bottom: 20px;
+}
+
+/* Ipad Pro */
+@media (max-width: 1024px) {
+    .container.footerSection { 
+        width: 930px;
+    }
+}
+
+/* Ipad */
+@media (min-width: 768px) and ( max-width: 1023px ) {
+    .container.footerSection {
+        width: 665px;
+    }
+}

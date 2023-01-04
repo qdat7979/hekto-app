@@ -1,0 +1,91 @@
+.spanTag { 
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.spanOtherInfo {
+    margin-right: 3px;
+}
+
+.liOtherInfo {
+    margin-right: 20px;
+}
+
+.liOtherInfo.liCart {
+    margin-left: 20px;
+}
+
+
+/* NavLinkTag */
+.navLinkTag {
+    color: #0D0E43;
+}
+
+.navLinkTag.active {
+    color: #FB2E86;
+}
+
+/* div top bar */
+.divTopBar {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    justify-content: space-between;
+}
+
+.hello {
+    cursor: pointer;
+}
+
+.liOtherInfo .logOut .hello:hover .logOutButton{
+    display: block;   
+}   
+
+.logOutButton {
+    display: none;
+}
+
+.shoppingIcon {
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.shoppingCount {
+    position: relative;
+}
+
+.countProduct {
+    position: absolute;
+    top: -6px;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Responsive */
+
+/* ipad */
+@media (min-width: 768px) and ( max-width: 1023px ) {
+    .contact {
+        width: 100%;
+    }
+
+    .navigationBar {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .navigationBar {
+        display: none;
+    }
+    .info {
+        display: none;
+    }
+}

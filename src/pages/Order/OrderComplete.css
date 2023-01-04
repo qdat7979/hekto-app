@@ -1,0 +1,27 @@
+.orderDone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 181px;
+}
+
+.orderTitle {
+    font-family: Josefin Sans;
+    font-size: 36px;    
+    color: #101750;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.orderDesc { 
+    width: 600px;   
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #8D92A7;
+    line-height: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,16 @@
+.trendingWrapper .trendingTitle span {
+    color: #151875;
+    font-size: 42px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.trendingWrapper .trendingTitle {
+    margin-bottom: 39px;
+}
+
+.trendingWrapper {
+    margin-bottom: 71px;
+}

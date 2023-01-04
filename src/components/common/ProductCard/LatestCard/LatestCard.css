@@ -1,0 +1,109 @@
+/* Latest Card CSS */
+.cardProductItem.latest {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.cardProductImage.latest {
+    background-color: #F7F7F7;
+    height: 269px;
+}
+
+
+.cardProductDesc.latest {
+    background-color: #ffffff;
+}
+
+.cardProductDesc.latest span {
+    color: #151875;
+}
+
+.sale {
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    left: 1px;
+}
+
+.cardProductImage.latest .sale img {
+    position: absolute;
+    width: 88px;
+    height: 68px;
+}
+
+
+/* When hover */
+.cardProductItem:hover .cardProductDesc.latest {
+    background-color: #ffffff;
+    
+}
+
+.cardProductItem:hover .cardProductDesc.latest span {
+    color: #151875 ;
+}
+
+.cardProductItem:hover .cardProductImage.latest {
+    background-color: #ffffff;
+}
+
+.cardProductItem:hover .cardProductActions > a.latest {
+    left: 24px;
+    transition: left .3s;
+}
+
+.cardProductItem:hover .cardProductActions .cardProductIcon.latest  {
+    left: 15px;
+    top: 146px;
+}
+
+.cardProductItem:hover .cardProductActions a.zoom.latest {
+    left: 25px;
+    top: 225px;
+}
+
+.cardProductItem:hover .cardProductActions a.heart.latest {
+    left: 24px;
+    top: 194px;
+}
+
+
+/* Desc */
+.cardProductDesc.latest {
+    margin-top: 16px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardProductTitle.latest span {
+    font-size: 16px;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 2px solid #EEEFFB;
+}
+
+.cardProductPrice.latest {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cardProductPrice.latest .currentPrice span {
+    margin-right: 8.5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cardProductPrice.latest .salePrice span,
+.cardProductItem:hover .cardProductPrice.latest .salePrice span {
+    font-size: 12px;
+    color: #FB2448;
+    text-decoration: line-through;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Responsive */
+
+/* Ipad Pro */
+.cardProductImage.latest {
+  
+}

@@ -1,0 +1,89 @@
+.carouselSection {
+    margin-bottom: 129px;
+}
+
+.carousel {
+    background-color: #F2F0FF;
+    padding-bottom: 150px;
+}
+
+.carouselItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carouselItemFirst .carouseItemQuote {
+    font-size: 16px;
+    color: #FB2E86;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+.carouselItemFirst .carouselItemTitle {
+    font-size: 53px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.carouselItemFirst .carouselItemContent {
+    font-size: 16px;
+    color: #8A8FB9;
+    margin-bottom: 27px;
+}
+
+/* antd css */
+.slick-dots {
+    bottom: 55px !important;
+}
+
+.slick-dots .slick-active button {
+    background-color: #FB2E86 !important;
+}
+
+.slick-dots li button {
+    background-color: #FB2E86 !important;
+}
+
+/* Responsive */
+
+/* ipad pro */
+@media (max-width: 1024px) {
+
+    .carouselItem .carouselItemTitle {
+        font-size: 43px;
+    }
+
+    .carouselItemFirst {
+        flex: 1;
+    }
+
+    .carouselItemSecond {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carouselItemSecond img {
+        width: 90%;
+    }
+}
+
+/* ipad */
+@media (min-width: 740px) and ( max-width: 1023px ) {
+    .carouselItem .carouselItemTitle {
+        font-size: 25px;
+    }
+
+    .carouselItemSecond {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carouselItemSecond img {
+        width: 90%;
+    }
+}

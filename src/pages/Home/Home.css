@@ -1,0 +1,20 @@
+.imageBannerBottom {
+    width:100%;
+    height: 462px; 
+    margin-bottom :76px;
+}
+
+
+/* Ipad */
+@media (min-width: 768px) and ( max-width: 1023px ) {
+    .imageBannerBottom {
+        height: 300px;
+    }
+}
+
+/* Ipad Pro */
+@media (max-width: 1024px) {
+    .imageBannerBottom {
+        height: 390px;
+    }
+}

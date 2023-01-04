@@ -1,0 +1,14 @@
+.spinLoading {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonShoplistIcon {
+    cursor: pointer;
+}
+
+.imgNotFoundWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

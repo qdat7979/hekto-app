@@ -1,0 +1,12 @@
+.ant-dropdown .ant-dropdown-menu {
+    margin-top: 8px !important;
+    border-radius: 3px;
+}
+
+.ant-dropdown-menu-item.ant-dropdown-menu-item-active {
+    color: #FB2E86 !important;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+    background-color: #ffff;
+}

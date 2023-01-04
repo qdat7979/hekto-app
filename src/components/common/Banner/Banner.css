@@ -1,0 +1,127 @@
+.banner {
+    background-color: #F1F0FF;
+    margin-bottom: 88px;
+}
+
+.bannerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerDesc .bannerTitle {
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #151875;
+    margin-bottom: 29px;
+}
+
+.quoteWrapper .circle {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+
+.quoteWrapper .quoteLine {
+    display: flex;
+    align-items: flex-start;
+}
+
+.quoteWrapper .quote {
+    /* width: 461px; */
+}
+
+.quoteWrapper .quoteLine .quote {
+    line-height: 28px;
+}
+
+.bannerExplain .quoteWrapper {
+    margin-bottom: 13px;    
+}
+
+.bannerExplain .quoteWrapper .quoteLine{
+    font-family: 'Lato', sans-serif;
+    color: #ACABC3;
+}
+
+.bannerExplain .quoteWrapper .circle.pink {
+    background-color: #F52B70;
+    margin-top: 9px;
+}
+.bannerExplain .quoteWrapper .circle.blue {
+    margin-top: 9px;
+    background-color: #2B2BF5;
+}
+.bannerExplain .quoteWrapper .circle.green {
+    background-color: #2BF5CC;
+    margin-top: 9px;
+}
+
+.bannerButton {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.bannerInfo {
+    margin-left: 19px;
+}
+
+.bannerInfo .bannerProductName {
+    color: #151875;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.bannerInfo .bannerProductPrice {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #151875;
+}
+
+
+/* Responsive */
+
+/* Ipad Pro */
+@media (max-width: 1024px) {
+    .bannerSection .bannerImage {
+        flex: 1;
+    }
+    .bannerImage  img{
+        width: 100%;
+    }
+    .bannerDesc {
+        flex: 1;
+    }
+    .bannerDesc .bannerTitle {
+        font-size: 25px;
+    }
+}
+
+/* Ipad */
+@media (min-width: 768px) and ( max-width: 1023px ){
+    .bannerSection {
+        flex-direction: column;
+    } 
+
+    .bannerSection .bannerImage {
+        flex: 1;
+    }
+    .bannerImage  img{
+        width: 100%;
+    }
+    .bannerDesc {
+        flex: 1;
+    }
+    .bannerDesc .bannerTitle {
+        font-size: 25px;
+    }
+    .bannerButton {
+        margin-bottom: 38px;
+        justify-content: center;
+    }
+}

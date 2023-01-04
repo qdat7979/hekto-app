@@ -1,0 +1,76 @@
+.cardProductItem.blog .cardProductDesc {
+    padding: 19px;
+}
+
+.cardProductItem.blog .cardProductImage {
+    border-radius: 6px;
+}
+
+.cardProductItem.blog:hover .cardProductDesc {
+    background-color: #ffff;
+}
+
+.cardProductTitle.blog {
+    justify-content: flex-start;
+    margin-bottom: 17px;
+}
+
+.cardProductTitle.blog span {
+    color: #151875;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cardProductCode.blog {
+    justify-content: flex-start;
+    margin-bottom: 14px;    
+}
+
+.cardProductDesc .cardProductTitle span,
+.cardProductItem.blog:hover .cardProductDesc .cardProductTitle span {
+    color: #151875;
+}
+
+.cardProductCode.blog span {
+    font-size: 16px;
+    color: #72718F;
+    font-family: 'Lato', sans-serif;
+}
+
+.cardProductDesc .cardProductCode span,
+.cardProductItem.blog:hover .cardProductDesc .cardProductCode span {
+    color: #72718F;
+    line-height: 30px;
+}
+
+.cardBlogButton a {
+    font-size: 16px;
+    color: #151875;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 1px solid #151875;
+    font-weight: 400;
+}
+
+.blogInfo {
+    margin-bottom: 31px;
+    display: flex;
+}
+
+.blogInfo .blogAuthor {
+    margin-right: 30px;
+}
+
+.blogInfo .blogAuthor span,
+.blogInfo .blogCalender span{
+    color: #151875;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.cardProductItem.blog:hover .cardProductTitle.blog span,
+.cardProductItem.blog:hover .cardBlogButton a{
+    color: #FB2E86;
+    transition: .2s;
+}
+

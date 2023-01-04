@@ -1,0 +1,19 @@
+.subcribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.subcribe .subcribeLine {
+    width: 574px;
+    text-align: center;
+    margin-bottom: 22.5px;
+}
+
+.subcribe .subcribeLine span {
+    font-size: 35px;
+    line-height: 54.25px;
+    color: #151875;
+    font-weight: 700;
+}

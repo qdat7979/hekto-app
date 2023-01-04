@@ -1,0 +1,40 @@
+.cardProductItem.shopex {
+    height: 320px;
+    box-shadow: 0px 8px 40px 0px #31208A0D;
+}
+
+.cardShopexImg,
+.cardShopexTitle,
+.cardShopexDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardShopexImg {
+    margin-bottom: 40px;
+}
+
+.cardShopexImg img {
+    margin-top: 65px;
+}
+
+.cardShopexTitle {
+    color: #151875;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cardShopexDesc {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.cardShopexDesc span {
+    color: #1A0B5B4D;
+    font-weight: 700;
+    width: 217px;
+    text-align: center;
+    line-height: 25.6px;
+}
+

@@ -1,0 +1,127 @@
+.formContact {
+    width: 663px;
+    background-color: #F8F8FD;
+    padding: 46px 41px 1px 31px;
+    border-radius: 3px;
+}
+
+.formTitle {
+    font-family: Josefin Sans;
+    font-size: 18px;
+    color: #1D3178;
+    font-weight: 600;
+}
+
+.formInput {
+    padding: 13px 0;
+    background-color:#F8F8FD;
+    margin-top: 13px;
+    font-family: Lato;
+    border-bottom: 2px solid #BFC6E0;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.formItem {
+    margin-bottom: 70px;
+}
+
+.formInputName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstWrapper {
+    width: 770px;
+}
+
+.formInput.first {
+    width: 90%;
+}
+
+.formContact {
+    margin-bottom: 300px;
+}
+
+.formCheckOutWrapper {
+    display: flex;
+}
+
+.formContact {
+    margin-right: 30px;
+}
+
+/* products */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemInfo {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemImg img {
+    width: 100%;
+}
+
+.itemImg {
+    width: 80px;
+    margin-right: 15px;
+}
+
+.itemName {
+    width: 140px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.liItem {
+    width: 350px;   
+}
+
+.itemColor, .itemSize {
+    font-family: Josefin Sans;
+    font-size: 12px;
+}
+
+.currentProducts::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.currentProducts {
+    width: 350px;
+    height: 400px;
+    /* overflow: scroll; */
+    overflow-y: scroll; /* Show horizontal scrollbar */
+}
+
+.currentProducts::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.currentProducts::-webkit-scrollbar:horizontal {
+    display: none;
+}
+
+.currentProducts::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.bill {
+    margin-top: 64px;
+}

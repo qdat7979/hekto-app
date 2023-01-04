@@ -1,0 +1,41 @@
+.relatedTitle span{ 
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    font-weight: 700;
+    color: #101750 ;
+}
+
+.productDetailWrapper { 
+    margin-bottom: 125px;
+}
+
+.relateProductImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.relatedTitle { 
+    margin-bottom: 47px;
+}
+
+.relateProductDesc { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.relateProductName span { 
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    color: #151875;
+    font-weight: 600;
+}
+
+.relateProductPrice span{ 
+    font-family: 'Josefin Sans';
+    font-size: 13px;
+    color: #151875;
+}
